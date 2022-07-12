@@ -1,0 +1,166 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+#view-icon {
+  display: none;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+  font-family: 'Outfit', sans-serif;
+}
+
+.card {
+  width: 345px;
+  background-color: hsl(216, 50%, 16%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 5%;
+}
+
+.equi {
+  width: 85%;
+  height: 300px;
+  margin-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+#equi-hover{
+    border-radius: 10px;
+    position: absolute;
+    width: 85%;
+    height: 300px;
+    margin-top: -280px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#equi-hover:hover{
+    background-color: hsla(178, 100%, 50%, 0.534);
+    cursor: pointer;
+    border-radius: 15px;
+
+    position: absolute;
+    width: 85%;
+    height: 300px;
+    margin-top: -300px;
+
+    display: relative;
+    left: 25px;
+}
+
+#equi-hover:hover #view-icon{
+    display:flex;
+}
+
+h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  position: relative;
+  left: 25px;
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.description {
+  width: 80%;
+  position: relative;
+  left: 25px;
+  letter-spacing: 0.5px;
+  color: hsl(215, 51%, 70%);
+}
+
+.eth-text {
+  font-weight: 600;
+  color: hsl(178, 100%, 50%);
+  display: inline-block;
+  position: relative;
+  left: 27px;
+}
+
+.eth-icon {
+  position: relative;
+  left: 25px;
+  top: 2px;
+}
+
+.eth-icon, .eth-text {
+  margin-top: 0;
+}
+
+.icon-clock {
+  position: relative;
+  left: 120px;
+  top: 2px;
+}
+
+.time {
+  color: hsl(215, 51%, 70%);
+  display: inline-block;
+  position: relative;
+  left: 125px;
+}
+
+hr {
+  width: 85%;
+  border-color: hsl(215, 32%, 27%);
+}
+
+.creation {
+  color: hsl(215, 51%, 70%);
+}
+
+.cardo {
+  display: inline-block;
+  position: relative;
+  left: 30px;
+  margin-top: 0;
+}
+
+.avatar {
+  width: 10%;
+  height: 10%;
+  border: solid 1px white;
+  display: inline-block;
+  position: relative;
+  left: 23px;
+  top: 10px;
+  margin-top: 0px;
+  border-radius: 50%;
+}
+
+.bottom {
+  padding-bottom: 15px;
+}
